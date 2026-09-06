@@ -43,11 +43,7 @@
     </filter>
   </defs>
 
-  <!--
-       DELIBERATELY NO BACKGROUND RECTANGLE.
-       The SVG remains transparent so GitHub's README background
-       shows through naturally.
-  -->
+  <!-- DELIBERATELY NO BACKGROUND RECTANGLE (100% TRANSPARENT) -->
 
   <!-- Provenance header -->
   <text
