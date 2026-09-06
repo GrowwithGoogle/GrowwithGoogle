@@ -6,7 +6,7 @@
 
 <p align="center">
   <img
-    src="./assets/andy-synoptic.svg"
+    src="andys_forecast.svg"
     alt="AИDY'S FORECAST — CONUS Google synoptic calligraphy generated from National Weather Service forecast conditions"
     width="100%"
   />
