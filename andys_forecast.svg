@@ -1,189 +1,156 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 570" width="100%" height="100%">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 490" width="100%" height="100%">
   <defs>
-    <!-- Background Card Gradient -->
-    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#161922"/>
-      <stop offset="100%" stop-color="#0e1017"/>
-    </linearGradient>
-
-    <!-- Heat Dome Radial Aura (Red/Orange) -->
-    <radialGradient id="heatDomeAura" cx="45%" cy="48%" r="48%">
-      <stop offset="0%" stop-color="#ff1744" stop-opacity="0.65"/>
-      <stop offset="40%" stop-color="#ff5722" stop-opacity="0.4"/>
-      <stop offset="75%" stop-color="#ff9100" stop-opacity="0.15"/>
+    <!-- Heat Dome Radial Backlight Aura (Warm Radiant Orange) -->
+    <radialGradient id="heatDomeAura" cx="45%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff3d00" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#ff7a00" stop-opacity="0.32"/>
+      <stop offset="75%" stop-color="#ff9100" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#ff9100" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Rain / Aqua Glow Filter -->
-    <filter id="aquaRainGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-    </filter>
+    <!-- Heat Dome Blur Filter -->
     <filter id="heatAuraGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="32" result="blur"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+    </filter>
+
+    <!-- Raindrop Glow -->
+    <filter id="raindropGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
     </filter>
   </defs>
 
   <style>
-    .shell { fill: url(#cardBg); stroke: #252e3f; stroke-width: 1.5px; rx: 16px; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
     .sans { font-family: "Product Sans", "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 
-    /* Synoptic Living Animations */
+    /* Synoptic Subtle Living Animations */
     @keyframes rainDrizzle {
-      0% { transform: translateY(-4px); opacity: 0.3; }
+      0% { transform: translateY(-2px); opacity: 0.7; }
       50% { opacity: 1; }
-      100% { transform: translateY(7px); opacity: 0.2; }
+      100% { transform: translateY(5px); opacity: 0.5; }
     }
     @keyframes heatPulse {
       0%, 100% { transform: scale(1); opacity: 0.85; }
-      50% { transform: scale(1.12); opacity: 1; }
+      50% { transform: scale(1.08); opacity: 1; }
     }
 
     .rain-streak {
-      animation: rainDrizzle 1.7s ease-in-out infinite;
-    }
-    .rain-streak-delayed {
-      animation: rainDrizzle 2.1s ease-in-out infinite 0.5s;
+      animation: rainDrizzle 1.8s ease-in-out infinite;
     }
     .heat-glow {
       animation: heatPulse 5s ease-in-out infinite;
-      transform-origin: 390px 220px;
+      transform-origin: 410px 165px;
     }
   </style>
 
-  <!-- Shell Background Card -->
-  <rect width="940" height="570" class="shell"/>
+  <!-- ================= SHELL BACKGROUND CARD (SLATE CHARCOAL THEME) ================= -->
+  <rect width="940" height="490" rx="18" fill="#1e2229" stroke="#282e39" stroke-width="1.2"/>
 
   <!-- ================= TOP HEADER ================= -->
-  <g class="mono" font-size="11.5" letter-spacing="0.5">
-    <text x="36" y="40" fill="#8b9bb4" font-weight="600">
-      GOOGLE SYNOPTIC MARK // STUDY-TO-HIRE PROPOSAL <tspan fill="#00e5ff">[PT:AC]</tspan>
+  <g class="mono" font-size="11.5" letter-spacing="0.4">
+    <text x="38" y="36" fill="#8c99ab" font-weight="600">
+      GOOGLE SYNOPTIC MARK // STUDY-TO-HIRE PROPOSAL
     </text>
-    <text x="904" y="40" text-anchor="end" fill="#8b9bb4" font-weight="500">
-      Grow with Google • Merit America • <tspan fill="#ffffff" font-weight="700">Andy Kieckhefer</tspan>
+    <text x="38" y="52" fill="#00e5ff" font-weight="700">
+      [PT:AC]
+    </text>
+    <text x="902" y="36" text-anchor="end" fill="#8c99ab" font-weight="500" class="sans">
+      Grow with Google &#8226; Merit America &#8226; <tspan fill="#d1d5db" font-weight="600">Andy Kieckhefer</tspan>
     </text>
   </g>
 
-  <!-- ================= PRESCRIPTIVE WX PALETTE LEGEND ================= -->
-  <!-- Strict Meteorological Color Code: Heat=Red/Orange • Fair=White • Rain=Blue/Aqua • Snow=Purple/Pink -->
-  <g class="sans" font-size="10" font-weight="800" letter-spacing="0.5">
-    <!-- Heat Dome -->
-    <rect x="180" y="58" width="138" height="20" rx="10" fill="rgba(255,23,68,0.12)" stroke="#ff1744" stroke-width="1"/>
-    <circle cx="192" cy="68" r="4" fill="#ff1744"/>
-    <text x="202" y="72" fill="#ff5722">HEAT DOME (RED/ORANGE)</text>
-
-    <!-- Fair Weather (White) -->
-    <rect x="328" y="58" width="130" height="20" rx="10" fill="rgba(255,255,255,0.08)" stroke="#ffffff" stroke-width="1"/>
-    <circle cx="340" cy="68" r="4" fill="#ffffff"/>
-    <text x="350" y="72" fill="#ffffff">FAIR WX (WHITE)</text>
-
-    <!-- Rain / Aqua -->
-    <rect x="468" y="58" width="136" height="20" rx="10" fill="rgba(0,229,255,0.1)" stroke="#00e5ff" stroke-width="1"/>
-    <circle cx="480" cy="68" r="4" fill="#00e5ff"/>
-    <text x="490" y="72" fill="#00e5ff">RAIN (BLUE/AQUA)</text>
-
-    <!-- Snow / Ice -->
-    <rect x="614" y="58" width="144" height="20" rx="10" fill="rgba(217,70,239,0.1)" stroke="#d946ef" stroke-width="1"/>
-    <circle cx="626" cy="68" r="4" fill="#d946ef"/>
-    <text x="636" y="72" fill="#d946ef">SNOW/ICE (PURPLE/PINK)</text>
-  </g>
-
-  <!-- ================= SYNOPTIC ATMOSPHERE (HEAT DOME SUNBURST AURA) ================= -->
+  <!-- ================= HEAT DOME AMBIENT SUNBURST BACKLIGHT ================= -->
   <g class="heat-glow">
-    <ellipse cx="380" cy="220" rx="180" ry="110" fill="url(#heatDomeAura)" filter="url(#heatAuraGlow)"/>
+    <ellipse cx="410" cy="165" rx="165" ry="80" fill="url(#heatDomeAura)" filter="url(#heatAuraGlow)"/>
   </g>
 
-  <!-- ================= PRESCRIPTIVE SYNOPTIC GEOGRAPHIC WORDMARK ================= -->
-  <g class="sans" font-size="124" font-weight="900" letter-spacing="-2">
-    <!-- 'G' - Heat Dome Western Flank (Fiery Red-Orange) -->
-    <text x="195" y="248" fill="#ff5722">G</text>
+  <!-- ================= GOOGLE WORDMARK ================= -->
+  <!-- 
+    G (Orange) = Pacific Ridge / Heat Dome Western Boundary
+    o (Orange) = Great Plains Ridge
+    o (Amber)  = Central Heat Dome Epicenter
+    g (Gold)   = Convective Boundary
+    l (Green)  = Fair Weather / Stable Appalachian Air Mass
+    e (Cyan)   = New England Atlantic Rain / Showers with Raindrop
+  -->
+  <g class="sans" font-size="118" font-weight="900" letter-spacing="-2">
+    <!-- 'G' - Heat Dome Western Flank -->
+    <text x="270" y="195" fill="#ff5722">G</text>
 
-    <!-- 'o' - Heat Dome Rising Crest (Deep Orange) -->
-    <text x="292" y="248" fill="#ff7a00">o</text>
+    <!-- 'o' - Heat Dome Crest -->
+    <text x="360" y="195" fill="#ff7a00">o</text>
 
-    <!-- 'o' - 594dm Central Heat Dome Epicenter (Radiant Amber-Orange) -->
-    <text x="376" y="248" fill="#ff9100">o</text>
+    <!-- 'o' - 594dm Central Heat Dome -->
+    <text x="436" y="195" fill="#ff9100">o</text>
 
-    <!-- 'g' - Convective Boundary (Warm Gold-Orange) -->
-    <text x="460" y="248" fill="#ffa726">g</text>
+    <!-- 'g' - Convective Flank -->
+    <text x="512" y="195" fill="#ffa726">g</text>
 
-    <!-- 'l' - FAIR WEATHER (Prescriptive Clean White) -->
-    <text x="538" y="248" fill="#ffffff">l</text>
+    <!-- 'l' - Fair Weather (Green) -->
+    <text x="582" y="195" fill="#00e676">l</text>
 
-    <!-- 'e' - NEW ENGLAND RAIN / SHOWERS (Prescriptive Aqua / Blue) -->
-    <text x="576" y="248" fill="#00e5ff">e</text>
+    <!-- 'e' - New England Rain (Cyan / Aqua) -->
+    <text x="616" y="195" fill="#00e5ff">e</text>
   </g>
 
-  <!-- ================= NEW ENGLAND RAINDROPS INTERWOVEN ON THE 'e' ================= -->
-  <g filter="url(#aquaRainGlow)">
-    <rect x="622" y="132" width="4.5" height="15" rx="2.25" fill="#00e5ff" class="rain-streak"/>
-    <rect x="636" y="146" width="3" height="11" rx="1.5" fill="#38bdf8" class="rain-streak-delayed"/>
-    <rect x="610" y="142" width="2.5" height="9" rx="1.25" fill="#7dd3fc" class="rain-streak"/>
-    <circle cx="624" cy="158" r="2.5" fill="#00e5ff" opacity="0.85"/>
+  <!-- ================= NEW ENGLAND RAINDROP OVER 'e' ================= -->
+  <g filter="url(#raindropGlow)">
+    <rect x="646" y="96" width="4.5" height="17" rx="2.25" fill="#00e5ff" class="rain-streak"/>
   </g>
 
-  <!-- Subtitle: AИDY'S FORECAST -->
-  <g class="sans" letter-spacing="4">
-    <text x="640" y="282" text-anchor="end" font-size="12" font-weight="800" fill="#64748b">
-      AИDY&apos;S FORECAST // SYNOPTIC ZERO-TRUST
-    </text>
-  </g>
-
-  <!-- ================= LIVE SYNOPTIC WEATHER PILL ================= -->
+  <!-- ================= CONUS SYNOPTIC WEATHER PILL ================= -->
   <g class="sans">
-    <rect x="110" y="324" width="720" height="38" rx="19" fill="#0b1726" stroke="#00838f" stroke-width="1.4"/>
-    <text x="470" y="348" text-anchor="middle" font-size="13" font-weight="700">
-      <tspan fill="#ff9100">☀️ CONUS SYNOPTIC: </tspan>
-      <tspan fill="#ff5722">HEAT DOME (CENTRAL)</tspan>
-      <tspan fill="#64748b"> • </tspan>
-      <tspan fill="#ffffff">🌤️ FAIR WEATHER (WHITE)</tspan>
-      <tspan fill="#64748b"> • </tspan>
-      <tspan fill="#00e5ff">🌧️ SHOWERS (EASTERN / NEW ENGLAND)</tspan>
+    <rect x="150" y="238" width="640" height="38" rx="19" fill="#111c27" stroke="#00acc1" stroke-width="1.3"/>
+    <text x="470" y="262" text-anchor="middle" font-size="13" font-weight="700">
+      <tspan fill="#ff9100">☀️ </tspan>
+      <tspan fill="#00e5ff">CONUS SYNOPTIC: RIDGE / HEAT DOME (CENTRAL) • 🌧️ SHOWERS (EASTERN)</tspan>
     </text>
   </g>
 
   <!-- ================= SEARCH BAR ================= -->
   <g class="sans">
-    <rect x="80" y="384" width="780" height="52" rx="26" fill="#212634" stroke="#313b4f" stroke-width="1.5"/>
-    <g transform="translate(108, 399)" stroke="#8b9bb4" stroke-width="2.2" fill="none">
+    <rect x="80" y="300" width="780" height="52" rx="26" fill="#262b35" stroke="#333a48" stroke-width="1.2"/>
+    <!-- Magnifying Glass Icon -->
+    <g transform="translate(106, 316)" stroke="#8c99ab" stroke-width="2.2" fill="none">
       <circle cx="8" cy="8" r="7"/>
-      <line x1="14" y1="14" x2="20" y2="20"/>
+      <line x1="13.5" y1="13.5" x2="19" y2="19"/>
     </g>
-    <text x="142" y="416" font-size="16" fill="#f1f5f9" font-weight="500">
+    <text x="140" y="333" font-size="16" fill="#f1f5f9" font-weight="500">
       NWS severe weather radar Atlanta
     </text>
   </g>
 
-  <!-- ================= UX SIMULATION BUTTON CONTROLS ================= -->
+  <!-- ================= UX SIMULATION CONTROLS ================= -->
   <g class="sans">
-    <text x="105" y="488" class="mono" font-size="10.5" font-weight="700" fill="#8b9bb4">
+    <text x="105" y="398" class="mono" font-size="10.5" font-weight="700" fill="#8c99ab">
       <tspan x="105" dy="0">UX</tspan>
       <tspan x="105" dy="14">SIMULATION:</tspan>
     </text>
 
     <!-- 1. National Synoptic (Default) - Active Blue -->
-    <rect x="205" y="472" width="200" height="48" rx="8" fill="#1d4ed8" stroke="#3b82f6" stroke-width="1.2"/>
-    <text x="305" y="501" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="205" y="382" width="200" height="46" rx="8" fill="#1d4ed8" stroke="#3b82f6" stroke-width="1.2"/>
+    <text x="305" y="410" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">
       1. National Synoptic (Default)
     </text>
 
     <!-- 2. Hyperlocal GPS (Atlanta 91.4°F) -->
-    <rect x="420" y="472" width="220" height="48" rx="8" fill="#1b1f2b" stroke="#2d374a" stroke-width="1.2"/>
-    <text x="530" y="501" fill="#cbd5e1" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="420" y="382" width="220" height="46" rx="8" fill="#1b1f28" stroke="#2c3340" stroke-width="1.2"/>
+    <text x="530" y="410" fill="#cbd5e1" font-size="13" font-weight="700" text-anchor="middle">
       2. Hyperlocal GPS (Atlanta 91.4°F)
     </text>
 
     <!-- 3. Classic Standard Logo -->
-    <rect x="655" y="472" width="180" height="48" rx="8" fill="#1b1f2b" stroke="#2d374a" stroke-width="1.2"/>
-    <text x="745" y="501" fill="#cbd5e1" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="655" y="382" width="180" height="46" rx="8" fill="#1b1f28" stroke="#2c3340" stroke-width="1.2"/>
+    <text x="745" y="410" fill="#cbd5e1" font-size="13" font-weight="700" text-anchor="middle">
       3. Classic Standard Logo
     </text>
   </g>
 
   <!-- ================= FOOTER ================= -->
-  <g class="mono" font-size="10.5" fill="#6b7280" text-anchor="middle">
-    <text x="470" y="550">
-      15 U.S.C. § 3724 Citizen Science • NOAA Open Data Integration • WCAG 2.1 AAA Compliant
+  <g class="mono" font-size="10.5" fill="#737e90" text-anchor="middle">
+    <text x="470" y="462">
+      15 U.S.C. &#167; 3724 Citizen Science &#8226; NOAA Open Data Integration &#8226; WCAG 2.1 AAA Compliant
     </text>
   </g>
 </svg>
