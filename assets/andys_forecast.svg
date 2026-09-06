@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="430"
+  viewBox="0 0 1200 430"
+  role="img"
+  aria-labelledby="title desc">
+
+  <title id="title">
+    AИDY'S FORECAST — CONUS NWS Synoptic Calligraphy
+  </title>
+
+  <desc id="desc">
+    Continental United States (CONUS) weather-responsive Google-inspired calligraphy
+    supported by National Weather Service synoptic forecast readings.
+  </desc>
+
+  <defs>
+    <!-- Sun / heat -->
+    <linearGradient id="heat" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff3d00"/>
+      <stop offset="48%" stop-color="#ff9800"/>
+      <stop offset="100%" stop-color="#ffc107"/>
+    </linearGradient>
+
+    <!-- Precipitation -->
+    <linearGradient id="rain" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00c8ff"/>
+      <stop offset="100%" stop-color="#0066ff"/>
+    </linearGradient>
+
+    <!-- Synoptic divider -->
+    <linearGradient id="synopticLine" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff5a1f"/>
+      <stop offset="45%" stop-color="#ffb000"/>
+      <stop offset="70%" stop-color="#00c89b"/>
+      <stop offset="100%" stop-color="#00bde8"/>
+    </linearGradient>
+
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <!--
+       DELIBERATELY NO BACKGROUND RECTANGLE.
+       The SVG remains transparent so GitHub's README background
+       shows through naturally.
+  -->
+
+  <!-- Provenance header -->
+  <text
+    x="40"
+    y="38"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15"
+    font-weight="700"
+    fill="#64748b">
+    GOOGLE SYNOPTIC MARK / CONUS NWS-VERIFIED WEATHER CALLIGRAPHY
+  </text>
+
+  <text
+    x="1160"
+    y="38"
+    text-anchor="end"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="14"
+    fill="#64748b">
+    [PT:AC] &#8226; AИDY'S FORECAST
+  </text>
+
+  <!-- Subtle atmospheric field -->
+  <ellipse
+    cx="600"
+    cy="170"
+    rx="300"
+    ry="100"
+    fill="#ff9800"
+    opacity=".08"
+    filter="url(#soft)"
+  />
+
+  <!-- CONUS WORDMARK (WEST TO EAST) -->
+  <g
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="112"
+    font-weight="800"
+    letter-spacing="-9">
+
+    <!-- G : West / Pacific Ridge / Heat -->
+    <text x="315" y="202" fill="url(#heat)">G</text>
+
+    <!-- o : Intermountain High -->
+    <text x="398" y="202" fill="#f57c00">o</text>
+
+    <!-- o : Central Plains Heat Dome -->
+    <text x="467" y="202" fill="#ff9800">o</text>
+
+    <!-- g : Mississippi Valley Convective Flank -->
+    <text x="537" y="202" fill="#ffb300">g</text>
+
+    <!-- l : Midwest / Appalachian Fair Weather -->
+    <text x="612" y="202" fill="#00b86b">l</text>
+
+    <!-- e : New England / Atlantic Coast Showers -->
+    <text x="647" y="202" fill="url(#rain)">e</text>
+  </g>
+
+  <!-- SYNOPTIC STATE -->
+  <rect
+    x="242"
+    y="232"
+    width="716"
+    height="47"
+    rx="23"
+    fill="none"
+    stroke="url(#synopticLine)"
+    stroke-width="2"
+  />
+
+  <text
+    x="600"
+    y="262"
+    text-anchor="middle"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="17"
+    font-weight="700"
+    fill="#475569">
+    &#9728; CONUS SYNOPTIC STATE: HEAT DOME / FAIR WEATHER &#8594; SHOWERS
+  </text>
+
+  <!-- Evidence heading -->
+  <text
+    x="600"
+    y="319"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    font-weight="800"
+    fill="#334155">
+    NATIONAL WEATHER SERVICE &#183; CONUS SYNOPTIC READ
+  </text>
+
+  <!-- National CONUS scope: West to East atmospheric evidence -->
+  <text
+    x="600"
+    y="352"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+    font-weight="600"
+    fill="#0f172a">
+    Continental United States (CONUS) &#183; Synoptic Cycle
+  </text>
+
+  <text
+    x="600"
+    y="382"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    fill="#475569">
+    West/Plains: Heat Dome (99&#176;F / 594dm) &#183; Midwest: Fair Wx &#183; East: Showers
+  </text>
+
+  <text
+    x="600"
+    y="409"
+    text-anchor="middle"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="14.5"
+    fill="#64748b">
+    NOAA WPC Frontal Analysis &#183; 8-Hour Model Cadence &#183; Source: api.weather.gov
+  </text>
+
+</svg>
