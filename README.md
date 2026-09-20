@@ -63,6 +63,18 @@
 
 > **The Trade Reality**: Wisconsin does not merely brew; it anchors the global brewing apparatus. Through Briess Malting (Chilton/Manitowoc), Wisconsin stainless sanitary engineering, and UW–Madison fermentation biotechnology, state agronomics flow across Europe, Asia, Latin America, and Oceania. Meanwhile, finished unadulterated cold ales remain strictly guarded within Wisconsin's 72 counties—compelling the world to make the pilgrimage back to the limestone spring.
 
+### 🍺 Driftless Flagships: Packaging Line Ticker
+
+<p align="center">
+  <a href="https://taproom.thepolka.cloud">
+    <img
+      src="assets/new_glarus_beer_belt.gif"
+      alt="New Glarus Brewing Co. Flagship Brands Conveyor Ticker — Spotted Cow, Moon Man, Totally Naked, Two Women, Belgian Red"
+      width="100%"
+    />
+  </a>
+</p>
+
 ---
 
 ## 📍 Field Verification: Not Just Beer, The Cheese Curd Haven
