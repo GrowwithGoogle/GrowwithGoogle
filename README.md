@@ -1,4 +1,4 @@
-# LAW IS ELASTIC, SO IS GOOGLE
+# "LAW IS ELASTIC, SO IS GOOGLE" 
 
 <p align="center">
   <img width="600" height="280" alt="Google Brand Evolution" src="https://github.com/user-attachments/assets/ec4a472b-a735-4385-a410-3d462b61e9a7" />
