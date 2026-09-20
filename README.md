@@ -21,12 +21,12 @@
 
 ---
 
-## ⚡ TL;DR Dev Dispatch
+## ⚡ Delicious Dev
 
 * **The Sovereign Epicenter**: Wisconsin (42.81° N, 89.63° W)—the nation's brewing, malting, and bio-thermodynamic epicenter, radiating trade across 148 nations.
 * **The Dual Doctrine**: Global export of agricultural genetics, specialty malts, and brewhouse engineering—paired with strictly bounded in-state retail exclusivity (the New Glarus domestic pilgrimage).
 * **Executable Jurisprudence**: 510 years of statutory beer purity compiled as automated CI/CD linters (`.github/workflows/reinheitsgebot_ci.yml`) and NIST SP 800-82 OT/ICS brewhouse cyber defense.
-* **Responsible Mobility**: Grounded in `@lyft × Grow with Google` 1099 independent contractor mobility—pre-game on the farm, quaff unadulterated lager in the taproom, ride home safely.
+* **Responsible Mobility**: Grounded in `@Lyft × Grow with Google` 1099 independent contractor's mobility—pre-game on the farm, quaff unadulterated lager in the taproom, Lyft home safely.
 
 ---
 
