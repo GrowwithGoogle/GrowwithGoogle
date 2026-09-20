@@ -25,6 +25,7 @@
 
 * **The Sovereign Epicenter**: Wisconsin (42.81° N, 89.63° W)—the nation's brewing, malting, and bio-thermodynamic epicenter, radiating trade across 148 nations.
 * **The Dual Doctrine**: Global export of agricultural genetics, specialty malts, and brewhouse engineering—paired with strictly bounded in-state retail exclusivity (the New Glarus domestic pilgrimage).
+* **Field-Verified Terroir**: On-site brewhouse telemetry at New Glarus Brewing Co.—not just pure unadulterated cold ale, but the undisputed fresh squeaky cheese curd haven.
 * **Executable Jurisprudence**: 510 years of statutory beer purity compiled as automated CI/CD linters (`.github/workflows/reinheitsgebot_ci.yml`) and NIST SP 800-82 OT/ICS brewhouse cyber defense.
 * **Responsible Mobility**: Grounded in `@Lyft × Grow with Google` 1099 independent contractor's mobility—pre-game on the farm, quaff unadulterated lager in the taproom, Lyft home safely.
 
@@ -59,39 +60,46 @@
 
 ---
 
-## 📍 Field Verification: New Glarus, Wisconsin
+## 📍 Field Verification: Not Just Beer, The Cheese Curd Haven
 
 <p align="center">
   <img
+    src="assets/andy_new_glarus_brewhouse.jpg"
+    alt="Google Professional, Andy K at New Glarus Brewing Co. Bottling Hall with Fresh Wisconsin Cheese Curds"
+    width="49%"
+  />
+  <img
     src="assets/new_glarus_authentic.jpg"
-    alt="New Glarus Brewing Co. — Bavarian Chalets, Hilltop Clock Tower, and Driftless Terroir"
-    width="100%"
+    alt="New Glarus Brewing Co. Bavarian Chalets, Hilltop Clock Tower, and Driftless Terroir"
+    width="49%"
   />
 </p>
+<p align="center">
+  <em><strong>Google Professional, Andy K</strong> on-site at New Glarus Brewing Co. (New Glarus, WI) conducting brewhouse SCADA verification above the packaging floor with fresh local cheese curds.</em>
+</p>
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🔴 🟡 🟢 🔵  GOOGLE MAPS VERIFIED PLACES FEED                                          │
-│                                                                                        │
-│  NEW GLARUS BREWING COMPANY · DRIFTLESS SANCTUARY                                      │
-│  ⭐ 4.8 / 5.0  ★★★★★  (4,286 Live Google Reviews · #1 Rated Midwest Craft Brewery)     │
-│  📍 2400 State Hwy 69, New Glarus, WI 53574 · Place ID: ChIJIZNVoLTUB4gRduNnHbttoJM  │
-│  📡 Status: DIRECT LIVE FEED TO GOOGLE PLACES API & MAPS STREAM                        │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  💬 "The hilltop Bavarian chalets look straight out of the Alps. Savoring a cold,     │
-│     unadulterated ale while gazing over the rolling green Driftless hills is the       │
-│     gold standard of American craft brewing." — Local Guide (142 reviews)             │
-│                                                                                        │
-│  💬 "You literally cannot buy this outside Wisconsin. Driving across state lines for a  │
-│     trunk of Spotted Cow is an annual Midwestern pilgrimage." — Verified Visitor       │
-│                                                                                        │
-│  💬 "100% natural, pristine limestone artesian water, and zero adjuncts. The real deal.│
-│     A bucket-list pilgrimage for any beer purist." — Craft Beer Aficionado             │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  [ 📡 View Live Home Feed on Google Maps ↗ ]   [ 🧭 Google Maps Route & Dispatch ↗ ]    │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
-👉 [**📡 Ingest Live Google Reviews from Home Source (Google Maps) ↗**](https://www.google.com/maps/place/New+Glarus+Brewing+Co./@42.8016,-89.6322,17z/data=!4m8!3m7!1s0x8807d4b4a1599321:0x93306dbb1c67e76!8m2!3d42.8016!4d-89.6322!9m1!1b1!16s%2Fm%2F050yq9)
+> ### 🧀 The Sacred Fifth Element: Fresh Squeaky Cheese Curds
+> **You don't audit high-throughput brewhouse SCADA lines on an empty stomach.** In the Badger State, the 1516 purity stack doesn't stop at four ingredients—it demands the sovereign fifth element: fresh, room-temperature, squeaky Wisconsin cheese curds. Inspected on-site above the packaging floor at New Glarus Brewing Co. Zero adjuncts, 100% natural dairy terroir, infinite squeak.
+
+---
+
+## 🔴 🟡 🟢 🔵 Google Maps Verified Places Stream
+
+<p align="center">
+  <a href="https://www.google.com/maps/place/New+Glarus+Brewing+Co./@42.8016,-89.6322,17z/data=!4m8!3m7!1s0x8807d4b4a1599321:0x93306dbb1c67e76!8m2!3d42.8016!4d-89.6322!9m1!1b1!16s%2Fm%2F050yq9">
+    <img
+      src="assets/google_places_reviews_card.svg"
+      alt="Google Maps Verified Places Feed — New Glarus Brewing Co."
+      width="100%"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.google.com/maps/place/New+Glarus+Brewing+Co./@42.8016,-89.6322,17z/data=!4m8!3m7!1s0x8807d4b4a1599321:0x93306dbb1c67e76!8m2!3d42.8016!4d-89.6322!9m1!1b1!16s%2Fm%2F050yq9"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgrowwithgoogle.github.io%2Fgoogle_reviews.json&query=%24.message&label=Google%20Places%20Live%20Stream&color=FBBC04&labelColor=161B22&logo=googlemaps&logoColor=EA4335&style=for-the-badge" alt="Google Maps Live Stream" /></a>
+  <a href="https://www.google.com/maps/place/New+Glarus+Brewing+Co./@42.8016,-89.6322,17z/data=!4m8!3m7!1s0x8807d4b4a1599321:0x93306dbb1c67e76!8m2!3d42.8016!4d-89.6322!9m1!1b1!16s%2Fm%2F050yq9"><img src="https://img.shields.io/badge/Place_ID-ChIJIZNVoLTUB4gRduNnHbttoJM-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Place ID" /></a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=New+Glarus+Brewing+Co.+2400+State+Hwy+69+New+Glarus+WI+53574"><img src="https://img.shields.io/badge/Google_Maps-Route_%26_Dispatch-34A853?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Route & Dispatch" /></a>
+</p>
 
 ---
 
