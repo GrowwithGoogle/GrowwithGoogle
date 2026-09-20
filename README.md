@@ -8,7 +8,7 @@
   <a href="https://www.mendeley.com/search/?query=Kieckhefer+Agricultural+Thermodynamics"><img src="https://img.shields.io/badge/Elsevier%20%7C%20Mendeley-Cited%20on%20Mendeley-D60203?style=for-the-badge&logo=mendeley&logoColor=white" alt="Cited on Mendeley" /></a>
   <a href="https://taproom.thepolka.cloud"><img src="https://img.shields.io/badge/Taproom-taproom.thepolka.cloud-0F9D58?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Taproom" /></a>
   <a href="https://growwithgoogle.github.io"><img src="https://img.shields.io/badge/Model%20Farm-growwithgoogle.github.io-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Model Farm" /></a>
-  <a href="https://www.lyft.com"><img src="https://img.shields.io/badge/%40lyft%20%C3%97%20Google-Safe%20Ride%20Home-FF00BF?style=for-the-badge&logo=lyft&logoColor=white" alt="Lyft 1099 Safe Ride" /></a>
+  <a href="https://www.lyft.com/rider"><img src="https://img.shields.io/badge/Lyft_Driver-100%25_Acceptance_Rate_Since_2022-FF00BF?style=for-the-badge&logo=lyft&logoColor=white" alt="Lyft Driver 100% Acceptance Rate Since 2022" /></a>
 </p>
 
 > ### 🧬 "Law is Elastic, so is Google."
@@ -21,13 +21,18 @@
 
 ---
 
-## ⚡ Delicious Dev
+## ⚡ The Bio & Executive Dev Dispatch
 
+> ### 🧬 The Bio: Subsurface Thermodynamics × Flawless Mobility
+> **Doctoral oil & battery thermodynamics meets 100% Lyft driver acceptance since 2022.**  
+> From subsurface Smackover brine lithium extraction and battery thermodynamic energy models at [`@healthearthack`](https://github.com/healthearthack) to on-site brewhouse SCADA audits and frontline civic mobility—Google tracking law before the Constitution.
+
+* **Doctoral Science × Civic Mobility**: Grounded in [`@healthearthack`](https://github.com/healthearthack)'s doctoral research in subsurface oil reservoirs, brine lithium extraction, and battery thermodynamics—paired with an unbroken **100% Lyft Driver Acceptance Rate since 2022**. Real thermodynamic rigor meets 24/7 frontline mobility.
 * **The Sovereign Epicenter**: Wisconsin (42.81° N, 89.63° W)—the nation's brewing, malting, and bio-thermodynamic epicenter, radiating trade across 148 nations.
 * **The Dual Doctrine**: Global export of agricultural genetics, specialty malts, and brewhouse engineering—paired with strictly bounded in-state retail exclusivity (the New Glarus domestic pilgrimage).
 * **Field-Verified Terroir**: On-site brewhouse telemetry at New Glarus Brewing Co.—not just pure unadulterated cold ale, but the undisputed fresh squeaky cheese curd haven.
 * **Executable Jurisprudence**: 510 years of statutory beer purity compiled as automated CI/CD linters (`.github/workflows/reinheitsgebot_ci.yml`) and NIST SP 800-82 OT/ICS brewhouse cyber defense.
-* **Responsible Mobility**: Grounded in `@Lyft × Grow with Google` 1099 independent contractor's mobility—pre-game on the farm, quaff unadulterated lager in the taproom, Lyft home safely.
+* **Responsible Mobility**: Grounded in `@lyft × Grow with Google` 1099 independent contractor mobility—pre-game on the farm, quaff unadulterated lager in the taproom, ride home safely.
 
 ---
 
@@ -80,6 +85,8 @@
 
 > ### 🧀 The Sacred Fifth Element: Fresh Squeaky Cheese Curds
 > **You don't audit high-throughput brewhouse SCADA lines on an empty stomach.** In the Badger State, the 1516 purity stack doesn't stop at four ingredients—it demands the sovereign fifth element: fresh, room-temperature, squeaky Wisconsin cheese curds. Inspected on-site above the packaging floor at New Glarus Brewing Co. Zero adjuncts, 100% natural dairy terroir, infinite squeak.
+> 
+> 🔍 **Brewery Courtyard Easter Egg**: Notice the designated **Lyft Dropoff & Pickup Zone 1** stand at the garden curb. Certified under Andy K’s **100% Lyft Driver Acceptance Rate since 2022**—ensuring no craft pilgrimage ends without a safe ride home.
 
 ---
 
@@ -120,5 +127,7 @@ Cultivated under a deadpan, minimalist engineering mould:
 
 ---
 
-### 🚗 Civic Mobility Anchor
-**Never Drink & Drive.** Grounded in **`@lyft × Grow with Google`** 1099 independent contractor mobility work, our taproom and farm portals feature direct, one-tap rideshare dispatch. Celebrate 510 years of statutory beer purity, and let Lyft get you home safely.
+### 🚗 Civic Mobility Anchor: The 100% Acceptance Rate Standard
+**Never Drink & Drive.** Grounded in **`@lyft × Grow with Google`** 1099 independent contractor mobility work, our taproom and farm portals feature direct, one-tap rideshare dispatch:
+* **The 100% Acceptance Standard**: Proudly maintaining a **100% Lyft Driver Acceptance Rate since 2022**—unbroken reliability, zero stranded patrons, and flawless civic transport safety.
+* **Pre-Game to Safe Ride Home**: Pre-game on the farm, sample unadulterated 1516 Reinheitsgebot lager in the taproom, and catch a guaranteed ride home from the New Glarus Zone 1 Dropoff stand.
