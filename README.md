@@ -9,6 +9,20 @@
 **Terroir:** Wisconsin Driftless (42.81° N, 89.63° W) · Mountain View, CA  
 **Live Taproom:** [taproom.thepolka.cloud](https://taproom.thepolka.cloud) · **Model Farm:** [growwithgoogle.github.io](https://growwithgoogle.github.io)
 
+<p align="center">
+  <img
+    src="assets/new_glarus_driftless_marquee.gif"
+    alt="New Glarus, Wisconsin — Moving Window Marquee across the Driftless Terroir & Hilltop Brewery"
+    width="100%"
+  />
+</p>
+
+> ### ⭐ Google Reviews: New Glarus Brewing Co. (Wisconsin Driftless)
+> **Rating:** `4.8 ★★★★★` *(4,200+ Verified Google Reviews · Top-Rated Midwest Craft Brewery)*  
+> **Address:** 2400 State Hwy 69, New Glarus, WI 53574  
+> *"The hilltop Bavarian chalets look straight out of the Alps. Savoring an unadulterated cold ale while gazing across the rolling green hills of the Driftless Area is the gold standard of American craft brewing."*  
+> 👉 [**View All 4,200+ Live Reviews on Google Maps ↗**](https://www.google.com/maps/search/?api=1&query=New+Glarus+Brewing+Co+Wisconsin)
+
 ---
 
 ## _WHAT?_
