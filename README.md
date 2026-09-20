@@ -32,7 +32,7 @@
 * **The Dual Doctrine**: Global export of agricultural genetics, specialty malts, and brewhouse engineering—paired with strictly bounded in-state retail exclusivity (the New Glarus domestic pilgrimage).
 * **Field-Verified Terroir**: On-site brewhouse telemetry at New Glarus Brewing Co.—not just pure unadulterated cold ale, but the undisputed fresh squeaky cheese curd haven.
 * **Executable Jurisprudence**: 510 years of statutory beer purity compiled as automated CI/CD linters (`.github/workflows/reinheitsgebot_ci.yml`) and NIST SP 800-82 OT/ICS brewhouse cyber defense.
-* **Responsible Mobility**: Grounded in `@lyft × Grow with Google` 1099 independent contractor mobility—pre-game on the farm, quaff unadulterated lager in the taproom, ride home safely.
+* **Responsible Mobility**: Grounded in `@Lyft × Grow with Google` a 1099 independent contractor's mobility—pre-game on the farm, quaff unadulterated lager in the taproom, Lyft home safely.
 
 ---
 
