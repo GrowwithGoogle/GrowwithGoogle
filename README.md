@@ -17,11 +17,11 @@
 > * **The Elastic Mark (1997 → 2026)**: From Stanford BackRub serifs and 1998's exclamation point to Catull elegance, Product Sans, and dynamic responsive morphing dots—Google’s identity stretches across holiday Doodles, wearables, telemetry, and autonomous mobility.
 > * **The Elastic Statute (1516 → 2026)**: The Bavarian Landordnung was inked on calfskin parchment for wooden casks in 1516. It flexed in 1857 to welcome Louis Pasteur’s microscopic yeast, bent in 1987 for European trade jurisprudence, and today compiles into automated GitHub Actions CI/CD and monitors Supreme Court commerce clause dockets.
 > 
-> *Google tracking law before the Constitution: 260 years before 1787, statutory consumer protection was already compiling in the mash tun.*
+> *Google tracking law before the American Constitution: 260 years before 1787, Statutory Consumer Protection was already compiling in the mash tun.*
 
 ---
 
-## ⚡ The Bio & Executive Dev Dispatch
+## ⚡ The Bio & Delicious Dev
 
 > ### 🧬 The Bio: Subsurface Thermodynamics × Flawless Mobility
 > **Doctoral oil & battery thermodynamics meets 100% Lyft driver acceptance since 2022.**  
