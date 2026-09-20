@@ -23,6 +23,19 @@
 > *"The hilltop Bavarian chalets look straight out of the Alps. Savoring an unadulterated cold ale while gazing across the rolling green hills of the Driftless Area is the gold standard of American craft brewing."*  
 > 👉 [**View All 4,200+ Live Reviews on Google Maps ↗**](https://www.google.com/maps/search/?api=1&query=New+Glarus+Brewing+Co+Wisconsin)
 
+<p align="center">
+  <img
+    src="assets/new_glarus_global_map.jpg"
+    alt="Global Distribution & Pilgrimage Trajectories — New Glarus Wisconsin Only"
+    width="100%"
+  />
+</p>
+
+> ### 🗺️ The "Wisconsin Only" Global Exclusivity Doctrine
+> * **Core Brewing Sanctuary**: State of Wisconsin (**100% Exclusive Distribution**).
+> * **The Other 49 U.S. States & Global Continents**: **0.0% Commercial Distribution** (*Strictly Wisconsin-bound*).
+> * **The Global Pilgrimage**: From Munich, London, Tokyo, and San Francisco, craft aficionados travel across continents to sample pure, unadulterated ales at the source. You don't ship the terroir to the world—you make the world journey to the limestone spring.
+
 ---
 
 ## _WHAT?_
